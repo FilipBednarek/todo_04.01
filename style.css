@@ -1,0 +1,23 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #333;
+  color: #eee;
+}
+#container {
+  width: 500px;
+  margin: auto;
+  padding: 1rem;
+  box-shadow: 0 0 3px 1px #eee;
+  border-radius: 15px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
